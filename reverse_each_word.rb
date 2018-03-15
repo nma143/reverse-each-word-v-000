@@ -1,7 +1,7 @@
 def reverse_each_word (phrase)
 
   phraseArray=phrase.split (" ")
-  msg="";
+  msg=""
   phraseArray.each do |word|
     if(msg == "")
       msg=msg + word.reverse
