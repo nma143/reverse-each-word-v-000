@@ -5,5 +5,5 @@ def reverse_each_word (phrase)
   phraseArray.each do |word|
     msg=msg + word.reverse
   end
-  
+  return msg
 end
