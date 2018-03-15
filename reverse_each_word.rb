@@ -7,6 +7,7 @@ def reverse_each_word (phrase)
       msg=msg + word.reverse
     else
       msg=msg + " "+ word.reverse
+    end
   end
   return msg
 end
